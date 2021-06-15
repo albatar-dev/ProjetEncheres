@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Context>
+    <Resource maxWaitMillis="10000"
+              maxIdle="30"
+              maxActive="100"
+              username="root"
+              password=""
+              url="jdbc:mysql://127.0.0.1:3307/encheres"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              auth="Container"
+              name="jdbc/pool_cnx"
+    />
+</Context>
